@@ -5,8 +5,46 @@
 }
 
 
+
+
+.logo-head{
+    font-family: "Manrope", system-ui;
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 80px;
+    position: relative;
+.logo{
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.Features{
+    font-size: 18px;
+    color: #33354D;
+    margin-left: 460px;
+    position: absolute;
+    margin-top: 18px;
+    font-weight: 600;
+}
+.darkmode{
+
+}
+
+.sign-in{
+    background-color: #6366F1;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 1455px;
+}
+
+}
+
+
 .body{
-    font-family: "Manrope", system-ui; ;
+    font-family: "Manrope", system-ui; 
 }
 
 .container-1{
@@ -16,67 +54,72 @@
     
     display: grid;
     
-    grid-template-columns: 1fr 3fr;
-    
-
-
-   
+    grid-template-columns: 1fr 2fr ;
 
 }
 .card-1{
     margin-left: 300px;
-    margin-top: 3rem;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "headline-1"
-                            "underline-1"
-                            "buttons-apps";
-    
-                           
-
-  
+    margin-top: 10rem;
 
 .headline-1{
     color: #0B0F19;
     font-size: 56px;
     font-weight: 800;
-    grid: headline-1;
-
+    width: 500px;
 }
 
 .underline-1{
     color:#565973;
     font-size: 18px;
-    grid: underline-1;
-   
+    width:450px;
 }
 
 .buttons-apps{
- 
-}
-.btn-appstore{
-        
-}
-.btn-googleplay{
-  
+ margin-top: 3rem;
 }
 
+.btn-googleplay{
+  margin-left: 25px;
+}
 
 }
 
 .phone-box1{
-    grid: phone-box1;
-    width: 1300px;
-       .img-back{
-        
-       }
-       .img-front{
-           
-       }
-   }
+    position: relative;
+    
+    .img-back{
+    position: absolute;
+    z-index: -10;
+    bottom: 0;
+    right: 0px;
+    left: 140px;
+    }
+    .img-front{
+    position: absolute;
+    z-index: -5;
+    bottom: 0;
+    left: 370px;
+    }
+}
 
-
-
+.btn-circle{
+    background-color: white;
+    font-size: 10px;
+    display:inline-block;
+    text-align: center;
+    padding:10px;
+    border-radius:50%;
+    margin-top:110px;
+    margin-right: 1rem;
+}
+.Discover-more{
+    font-size:14px;
+    color:#565973;
+    margin-top:110px;
+    
+    
+}
 .container-2{
     background-color: white;
-    height: 500px;
+    height: 800px;
 }
