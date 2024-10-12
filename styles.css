@@ -14,32 +14,58 @@
     height: 80px;
     position: relative;
 .logo{
-    margin-left: 150px;
+    margin-left: 140px;
     position: absolute;
     margin-top: 5px;
 }
 
+.btn-head{
+    margin-top: 18px;
+
 .Features{
     font-size: 18px;
     color: #33354D;
-    margin-left: 460px;
+    margin-left: 450px;
     position: absolute;
-    margin-top: 18px;
+   
     font-weight: 600;
 }
-.darkmode{
 
+
+.darkmode{
+    margin-left: 1220px;
+    font-weight: 16px;
+    color: #565973;
+    
+    
 }
 
+
+}
 .sign-in{
     background-color: #6366F1;
-    color: white;
-    font-size: 1rem;
+    
+    font-weight: 14px;
+    padding-top: 5px;
+    padding-left: 35px;
     border-radius: 5px;
-    width: 100px;
-    margin-left: 1455px;
-}
+    width: 140px;
+    height: 36px;
+    margin-left: 1400px;
 
+    .btn-person{
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .btn-sign-in{
+        color:white;
+        justify-content: center;
+        margin-left: 2px;
+        
+    }
+
+}
 }
 
 
@@ -58,7 +84,7 @@
 
 }
 .card-1{
-    margin-left: 300px;
+    margin-left: 270px;
     margin-top: 10rem;
 
 .headline-1{
@@ -121,5 +147,112 @@
 }
 .container-2{
     background-color: white;
+    height: 1000px;
+   
+   .card-2{
+   display: grid;
+   grid-template-rows: 1fr;
+   height: 80px;
+   position: relative;
+   margin-top: 50px;
+
+        .logo-1{
+            font-size: 50px;
+            width: 196px;
+            height: 100px;
+            border: 1px solid #E2E5F1;
+            border-radius: 10px;
+            margin-left: 260px;
+           position:absolute;
+
+            .img-sponsor1{
+                margin-top:40px;
+                margin-left:40px;
+            }
+        }
+
+        .logo-2{
+            font-size: 50px;
+            width: 196px;
+            height: 100px;
+            border: 1px solid #E2E5F1;
+            border-radius: 10px;
+            margin-left: 482px;
+            position:absolute;
+
+            .img-sponsor2{
+                margin-top:40px;
+                margin-left:25px;
+            }
+        }
+
+        .logo-3{
+            font-size: 50px;
+            width: 196px;
+            height: 100px;
+            border: 1px solid #E2E5F1;
+            border-radius: 10px;
+            margin-left: 702px;
+            position:absolute;
+
+            .img-sponsor3{
+                margin-top:40px;
+                margin-left:25px;
+            }
+        }
+
+        .logo-4{
+            font-size: 50px;
+            width: 196px;
+            height: 100px;
+            border: 1px solid #E2E5F1;
+            border-radius: 10px;
+            margin-left: 922px;
+            position:absolute;
+
+            .img-sponsor4{
+                margin-top:35px;
+                margin-left:30px;
+            }
+        }
+
+        .logo-5{
+            font-size: 50px;
+            width: 196px;
+            height: 100px;
+            border: 1px solid #E2E5F1;
+            border-radius: 10px;
+            margin-left: 1142px;
+            position:absolute;
+
+            .img-sponsor5{
+                margin-top:35px;
+                margin-left:30px;
+            }
+        }
+
+        .logo-6{
+            font-size: 50px;
+            width: 196px;
+            height: 100px;
+            border: 1px solid #E2E5F1;
+            border-radius: 10px; 
+            margin-left: 1360px;
+            position:absolute;
+            
+            .img-sponsor6{
+                margin-top:30px;
+                margin-left:35px;
+            }
+        }
+    }
+
+    .card-3{
+
+    }
+}
+
+.container-3{
+    background-color: #F3F6FF;
     height: 800px;
 }
